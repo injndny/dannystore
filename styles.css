@@ -317,3 +317,62 @@ body {
 #orderForm .form-control {
     border-radius: 10px;
 }
+
+/* Carousel container */
+#testimonialCarousel {
+  max-width: 600px;  /* Make the carousel smaller */
+  margin: auto;  /* Center the carousel on the page */
+}
+
+/* Card container */
+.testimonial-card {
+  width: 200px;  /* Make the card smaller */
+  border: none;  /* Remove the card border */
+  border-radius: 20px;  /* Round the corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Soft shadow for the card */
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Image styling */
+.testimonial-img {
+  width: 80px;  /* Set the image size */
+  height: 80px;  /* Set the image size */
+  object-fit: cover;  /* Ensure the image fits the circle */
+  margin-bottom: 10px;
+  border-radius: 50%;  /* Make the image round */
+  border: 3px solid #f1f1f1;  /* Add a border to the image */
+}
+
+/* Text styling */
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1rem;  /* Adjust the font size */
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.badge {
+  font-size: 0.75rem;  /* Adjust the font size of the badge */
+  padding: 5px 10px;
+  border-radius: 12px;
+}
+
+/* Carousel navigation buttons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #000;  /* Dark icons for carousel navigation */
+}
+
+/* Style the carousel controls */
+.carousel-control-prev, .carousel-control-next {
+  top: 40%;  /* Adjust the vertical position of the controls */
+}
+
