@@ -376,3 +376,38 @@ body {
   top: 40%;  /* Adjust the vertical position of the controls */
 }
 
+.product-card-small {
+  width: 150px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card-small img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.product-card-small .card-body {
+  padding: 10px;
+}
+
+.product-card-small .card-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.product-card-small:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
